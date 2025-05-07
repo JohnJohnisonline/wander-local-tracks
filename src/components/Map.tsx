@@ -225,7 +225,7 @@ const Map: React.FC<MapProps> = ({ locationHistory, focusedLocation, isLoading =
         </div>
       ) : null}
       
-      {mapError && (
+      {mapError ? (
         <div className="absolute inset-0 bg-destructive/10 backdrop-blur-sm flex flex-col items-center justify-center p-6 z-20">
           <div className="bg-card p-6 rounded-lg shadow-lg max-w-md w-full">
             <div className="flex items-center space-x-2 mb-4">
