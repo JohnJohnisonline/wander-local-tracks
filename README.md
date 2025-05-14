@@ -1,73 +1,29 @@
-# Welcome to your Lovable project
+This app is called Wander: Local Tracks, a location tracking application that helps you visualize where you've been over time. It's designed with a nature-inspired theme featuring forest greens and earthy tones.
 
-## Project info
+Core Features
 
-**URL**: https://lovable.dev/projects/09b5e985-f6bd-4ceb-8a62-df204a91bb96
+GPS Location Tracking: Records your movements in the background when tracking is enabled
+Interactive Map: Displays your movement patterns with color-coded routes
+Location History: Shows a chronological timeline of places you've visited
+Time Filtering: Filter your location history by today, week, or month
+Privacy-Focused: All data is stored locally on your device, not on remote servers
+Technology Stack
 
-## How can I edit this code?
+The app is built using modern web technologies:
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/09b5e985-f6bd-4ceb-8a62-df204a91bb96) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09b5e985-f6bd-4ceb-8a62-df204a91bb96) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Frontend Framework:
+React: A JavaScript library for building user interfaces
+TypeScript: Adds static type definitions to enhance code quality
+Styling:
+Tailwind CSS: A utility-first CSS framework for rapid UI development
+Shadcn/UI: A collection of reusable UI components built on Radix UI primitives
+Map Visualization:
+Mapbox GL JS: For rendering interactive maps with custom styling
+Date Handling:
+date-fns: Lightweight date manipulation library
+Build Tools:
+Vite: Modern frontend build tool for fast development and optimized production builds
+UI Components:
+Custom-built components for location tracking, permissions handling, and history display
+Responsive design works across mobile and desktop devices
+The app focuses on a smooth user experience with responsive design, elegant transitions, and a clean interface. It uses browser geolocation APIs to track location and stores this data in the browser's local storage, making it completely private.
